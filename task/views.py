@@ -7,7 +7,7 @@ from task.serializers import TaskListSerializer, TaskCreateSerializer
 
 class TaskView(APIView):
     """
-    Вывод списока задач / Добавление задачи
+    Вывод списка задач / Добавление задачи
     для post-запроса используйте следующий пример:
     {
     "title": "Купить хлеб"
